@@ -7,14 +7,14 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-    size_t i, j;
+    unsigned int i, j;
     int temp;
     int swapped;
 
     /* Outer loop to traverse throught the entire array*/
     for (i = 0; i < size - 1; i++)
     {
-        swapped = 0 /* Flag to track if any swap occurs in the inner loop */
+        swapped = 0; /* Flag to track if any swap occurs in the inner loop */
             /* Inner loop comparing adjacent elements and swap if necessary */
             for(j = 0; j < size - i -1; j++)
             {
